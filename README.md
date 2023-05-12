@@ -11,7 +11,7 @@ The code works on a Jetson Nano 4GB with JetPack 4.6.1.
 
 ### Create a Docker environment
 ```
-$
+$ docker build -t env .
 ```
 
 ### Download a word2vec model
@@ -19,6 +19,6 @@ $
 
 ## Run
 ```
-$
+$ ./run.sh
 ```
 -->
