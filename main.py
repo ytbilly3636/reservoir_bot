@@ -11,7 +11,7 @@ from reservoir import ridge_regression
 
 # preference
 debug = True                # True -> print is available
-R_SIZE = 100                # size of reservoir
+R_SIZE = 200                # size of reservoir
 PARAM_PATH = 'params.bin'   # filename of parameters
 
 
@@ -43,7 +43,7 @@ def message2vec(message):
 
 
 # reservoir
-res = Reservoir(i_size=wv_model.vector_size, r_size=200)
+res = Reservoir(i_size=wv_model.vector_size, R_SIZE=200)
 w_o = None
 
 

@@ -2,6 +2,9 @@
 
 This repository is for a project entitled "Natural Language Processing by Reservoir Computing for AI-bot on Jetson," which is for an application of Jetson AI Specialist.
 
+YouTube video of this project is [available here](https://www.youtube.com/watch?v=FEEE70qeIC8).
+
+
 ## Setup
 The code works on a Jetson Nano 4GB with JetPack 4.6.1.  
 
