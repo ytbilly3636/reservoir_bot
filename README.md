@@ -52,3 +52,9 @@ if you do not want to use Docker, execute `main.py`.
 ```
 $ python main.py
 ```
+
+
+## Performance of reservoir computing
+I verified the performance of reservoir computing by using [this dataset](https://www.dropbox.com/s/rp5jotbvnkfkfiq/data.xlsx?dl=0). 
+
+The dataset consists of 50 important messages (label: 1) and 50 not important messages (label: 0). I fed the first half of dataset (25 important and 25 not important) into the reservoir computing for training. The remaining data was used for test. The reservoir computing with 200 nodes in reservoir layer (`r_size=200`, `i_coef=500.0`, `norm=100`) achieved an accuracy of 96% for the test data. 
